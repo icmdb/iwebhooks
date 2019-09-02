@@ -1,0 +1,19 @@
+version: "3"
+services:
+  builder:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: icmdb/iwebhook
+
+  iwebhook:
+    hostname: iwebhook
+    container_name: iwebhook
+    image: icmdb/iwebhook
+    environment:
+      - APP_ADDR=0.0.0.0
+      - APP_PORT=8080
+      - APP_DEBUG=True
+    ports:
+      - 8080:8080
+    restart: always

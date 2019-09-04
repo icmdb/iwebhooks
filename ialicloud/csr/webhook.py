@@ -19,11 +19,11 @@ csr_pushdata = {
     },
     "repository": {
         "date_created": "2019-08-03 12:37:44",
-        "name": "iwebhook-csr",
+        "name": "iwebhook",
         "namespace": "icmdb",
         "region": "cn-hongkong",
         "repo_authentication_type": "NO_CERTIFIED",
-        "repo_full_name": "icmdb/webhook-csr",
+        "repo_full_name": "icmdb/iwebhook",
         "repo_origin_type": "NO_CERTIFIED",
         "repo_type": "PUBLIC"
     }

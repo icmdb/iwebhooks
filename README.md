@@ -24,13 +24,34 @@ docker-compose up -d iwebhook
 helm install iwebhook 
 ```
 
+## Test
+
+```bash
+cp client.env.example client.env
+
+# Change config in client.env
+source client.env
+
+python client.py
+```
 
 ## Alicloud Container Registry Service
 
-* [islack](iskack/README.md)
+* [islack](islack/README.md)
 * [idingtalk](idingtalk/README.md)
 * [ibearychat](ibearychat/README.md)
 
+### 1. Deploy Webhooks
 
+### 2. Setting IM
+
+* 2.1 Create a channel for slack or a group for bearychat/dingtalk.
+* 2.2 Setting incoming robot.
+
+### 3. Create Image Registry on alicloud
+
+### 4. Setting webhooks
+
+### 5. Push demo
 
 

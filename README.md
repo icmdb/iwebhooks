@@ -15,13 +15,13 @@ python app.py
 ### 2. Start by docker-compose
 
 ```bash
-docker-compose up -d iwebhook
+docker-compose up -d iwebhooks
 ```
 
-### 3. Deploy in kubernetes by helm
+### 3. Deploy in kubernetes by helm (@TODO)
 
 ```bash
-helm install iwebhook 
+helm install iwebhooks
 ```
 
 ## Test

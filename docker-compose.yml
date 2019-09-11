@@ -4,12 +4,12 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-    image: icmdb/iwebhook
+    image: icmdb/iwebhooks
 
-  iwebhook:
-    hostname: iwebhook
-    container_name: iwebhook
-    image: icmdb/iwebhook
+  iwebhooks:
+    hostname: iwebhooks
+    container_name: iwebhooks
+    image: icmdb/iwebhooks
     environment:
       - APP_ADDR=0.0.0.0
       - APP_PORT=8080
